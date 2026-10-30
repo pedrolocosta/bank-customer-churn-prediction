@@ -1,0 +1,18 @@
+# Bank Customer Churn Prediction
+# Initial direct dependencies; pin versions after installation and validation.
+# Install inside the dedicated environment: python -m pip install -r requirements.txt
+
+# Data preparation and analysis
+numpy
+pandas
+
+# Classification and class imbalance handling
+scikit-learn
+imbalanced-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebook execution in VS Code
+ipykernel
