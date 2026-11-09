@@ -1,18 +1,20 @@
-# Bank Customer Churn Prediction
-# Initial direct dependencies; pin versions after installation and validation.
-# Install inside the dedicated environment: python -m pip install -r requirements.txt
+# Bank Customer Churn Prediction — TripleTen Sprint 10
+# Install in a Python 3.12 Conda environment:
+#   python -m pip install -r requirements.txt
+#
+# These are compatibility ranges, NOT an exact environment lockfile.
+# Record the versions from a successful notebook run if exact reproducibility is needed.
 
-# Data preparation and analysis
-numpy
-pandas
+# Data analysis
+numpy>=1.26,<3
+pandas>=2.1,<3
 
-# Classification and class imbalance handling
-scikit-learn
-imbalanced-learn
+# Machine learning and evaluation
+scikit-learn>=1.4,<2
 
-# Visualization
-matplotlib
-seaborn
+# Data visualization
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
 
-# Notebook execution in VS Code
-ipykernel
+# VS Code / Jupyter kernel
+ipykernel>=6.29,<8
