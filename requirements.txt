@@ -1,4 +1,4 @@
-# Bank Customer Churn Prediction — TripleTen Sprint 10
+# Bank Customer Churn Prediction — TripleTen Sprint 10 with update on Sprint 12
 # Install in a Python 3.12 Conda environment:
 #   python -m pip install -r requirements.txt
 #
